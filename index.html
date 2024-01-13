@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- External CSS  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Remixicon 3  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.3.0/remixicon.css">
+    <!-- Fontawesome 4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap 3  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <title>Document</title>
+</head>
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;1,500&family=Roboto:wght@300;400&display=swap');
+
+* {
+
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family:Georgia, 'Times New Roman', Times, serif; */
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+
+
+section {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  section video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  section .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  section .overlay-wcs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+  @media(max-width:952px) {
+
+    section {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  section video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  section .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  section .overlay-wcs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+
+  }
+
+</style>
+
+
+<body>
+
+
+
+    <section >
+        <div class="overlay-wcs"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <!-- <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4"> -->
+          <source src="video.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100">
+          <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <!-- <br>
+              <br> -->
+              <!-- <br> -->
+              <!-- <i class="fa fa-play-circle-o" aria-hidden="true" style="font-size:70px;color:white"></i> -->
+              <!-- <i class="ri-play-circle-line" style="font-size:48px;color:white"></i> -->
+              <i class="fa fa-play-circle" aria-hidden="true" style="font-size:70px;color:white"></i>
+              <br>
+              <h2 style="color:white;font-size:50px">We Create . You Celebrate</h2>
+              <br>
+           
+              <p class="lead mb-0" style="font-size:20px;color:white">We provide high quality and cost effective <br> Photography and Cinematography services.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+    
+
+</body>
+
+</html>
